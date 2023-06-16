@@ -1,19 +1,20 @@
 # Countlories_ML_Model
-<p align="center"> <img src="https://raw.githubusercontent.com/IpunkDkk/Countlories/main/image.png" width="200" height="200" /> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/IpunkDkk/Countlories/main/image.jpg" width="200" height="200" /> </p>
 
 ## Our Dataset
-[**Countlories Dataset**](https://drive.google.com/drive/folders/1VRnSBdAEQqSmD8Q2N33ga23FbEqLMoDm?usp=sharing)
+[**Countlories Dataset**](https://drive.google.com/drive/folders/1QdX34wwuv-rQrMPDFgaBa0EGeiaclfWc?usp=sharing)<br />
+Dataset kami berjumlah total 14 class, dengan 9 di antaranya kami dapatkan dari kaggle dan 5 sisanya kami dapatkan dari google image yang didownload dengan bantuan extension google chrome (Fatkun Batch Download Image)
 ### Resource
-1. [Kaggle](https://www.kaggle.com/datasets/rutviklathiyateksun/acne-grading-classificationdataset/code)
-2. [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfb2084kdwVPs6Vp8dk1Ri3RCHpd2N5FFqsMSrlUMZSHSK3gA/viewform)
-3. [DermNet Nz](https://dermnetnz.org/image-library)
-4. [Google Image](https://www.google.com/search?q=jerawat+dan+komedo&tbm=isch&ved=2ahUKEwjc4_CY_af4AhVZFLcAHeC8C9AQ2-cCegQIABAA&oq=jerawat+dan+kom&gs_lcp=CgNpbWcQARgAMgUIABCABDIGCAAQHhAFMgYIABAeEAUyBggAEB4QBTIGCAAQHhAFMgYIABAeEAUyBggAEB4QBTIGCAAQHhAFMgYIABAeEAUyBggAEB4QBToECAAQEzoECCMQJzoECAAQAzoICAAQgAQQsQM6CAgAELEDEIMBOgsIABCABBCxAxCDAVCtCFjeLWCSNWgAcAB4AIAB1gGIAYEIkgEGMTUuMC4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=lOSlYtzJI9mo3LUP4PmugA0&bih=648&biw=1280&rlz=1C1CHBD_idID880ID880)
+#### 1. [Kaggle](https://www.kaggle.com/datasets/faldoae/padangfood)
+Classes = Ayam Goreng, Ayam Pop, Daging Rendang, Dendeng Batokok, Gulai Ikan, Gulai Tambusu, Gulai Tunjang, Telur Rebus Balado, Telur Dadar Goreng
 
-## Colab Research Notebook 
-[**Model Build Notebook**](https://colab.research.google.com/drive/1U1Xxc5J0SP5XbVkBGQdaiR90JrngKLre?usp=sharing)
-
-## Architecture of EfficientDet Lite
-![efiicient](https://www.mdpi.com/electronics/electronics-11-00575/article_deploy/html/images/electronics-11-00575-g002.png)
+#### 2. Google Image
+Classes :
+##### - [Lele Goreng](https://www.google.com/search?sxsrf=APwXEdf6NUZcgJ2WI4eldPKUTYVa5HAwrQ:1686904404675&q=lele+goreng&tbm=isch&sa=X&ved=2ahUKEwiJ6b3OsMf_AhWAyDgGHbX9CaQQ0pQJegQIDBAB&biw=1536&bih=714&dpr=1.25)
+##### - [Nasi](https://www.google.com/search?q=nasi&tbm=isch&ved=2ahUKEwj9psTPsMf_AhUpK7cAHb7yCS0Q2-cCegQIABAA&oq=nasi&gs_lcp=CgNpbWcQAzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIKCAAQigUQsQMQQzoECCMQJzoFCAAQgARQiLEBWPCzAWC3tQFoAXAAeACAAYACiAHkBZIBBTIuMi4xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Vh6MZP2jNanW3LUPvuWn6AI&bih=714&biw=1536)
+##### - [Tahu Goreng](https://www.google.com/search?q=tahu+goreng&tbm=isch&ved=2ahUKEwjvr7PpsMf_AhX0VHwKHWIXByoQ2-cCegQIABAA&oq=tahu+goreng&gs_lcp=CgNpbWcQAzIECCMQJzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoICAAQgAQQsQM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBOgcIABCKBRBDULdiWOJqYO9raAFwAHgAgAGRAYgB0gqSAQM1LjiYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=jR6MZK-1B_Sp8QPirpzQAg&bih=714&biw=1536)
+##### - [Telur Matasapi Goreng](https://www.google.com/search?q=telur+matasapi&tbm=isch&ved=2ahUKEwiq_9HysMf_AhUcLrcAHbGJBsoQ2-cCegQIABAA&oq=telur+matasapi&gs_lcp=CgNpbWcQAzIFCAAQgAQyCQgAEBgQgAQQCjIJCAAQGBCABBAKOgQIIxAnOgcIABCKBRBDOggIABCABBCxAzoKCAAQigUQsQMQQ1CuBVigE2DpFGgAcAB4AIAB8AKIAYkRkgEHNC43LjIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=oB6MZKqvHpzc3LUPsZOa0Aw&bih=714&biw=1536)
+##### - [Tempe Goreng](https://www.google.com/search?q=tempe+goreng&tbm=isch&ved=2ahUKEwiSl9H7sMf_AhXMK7cAHVBqBCcQ2-cCegQIABAA&oq=tempe+g&gs_lcp=CgNpbWcQARgAMgQIIxAnMggIABCABBCxAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgkIABAYEIAEEAo6BwgAEIoFEEM6CggAEIoFELEDEEM6CwgAEIAEELEDEIMBUN8HWLIOYI8TaABwAHgAgAG3AYgB_QaSAQM0LjSYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=sx6MZNLxFczX3LUP0NSRuAI&bih=714&biw=1536)
 
 ## References
 1. [tensorflow.org](https://www.tensorflow.org/)
